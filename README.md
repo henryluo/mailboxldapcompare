@@ -10,7 +10,8 @@ The query to LDAP is pretty straight forward after installing the python-ldap mo
 
 ## Running the scripts
 
-Must have a file named 
+Must have a file named `everymailboxsize.txt` which is a file that lists every IMAP mailbox home folder name, separated by newline characters. 
+
 Scripts will probably be consolidated at some point, but for now, scripts should be run in this order:
 ```
 1. testeverymailboxsize.py
